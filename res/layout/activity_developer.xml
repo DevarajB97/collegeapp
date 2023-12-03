@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".developer.Developer">
+
+    <LinearLayout
+        android:id="@+id/nivetha"
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:layout_marginTop="20dp"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:src="@drawable/nivetha"/>
+        <LinearLayout
+            android:id="@+id/details"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/dev"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Backend Developer"
+                    android:textSize="20sp"
+                    android:textColor="@color/textColor"/>
+                <TextView
+                    android:layout_below="@+id/dev"
+                    android:id="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nivetha. U"
+                    android:textSize="20sp"
+                    android:textColor="@color/textColor"/>
+                <TextView
+                    android:id="@+id/bsc"
+                    android:layout_below="@+id/name"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Bsc Computer Science"
+                    android:textSize="20sp"
+                    android:textColor="@color/textColor"/>
+                <TextView
+                    android:id="@+id/sec"
+                    android:layout_below="@+id/bsc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2nd Year  Sec : A"
+                    android:textSize="20sp"
+                    android:textColor="@color/textColor"/>
+                <TextView
+                    android:layout_below="@+id/sec"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="nivethakumar3420@gmail.com"
+                    android:textSize="20sp"
+                    android:textColor="@color/purple_700"/>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_marginTop="20dp"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:layout_gravity="center"
+                android:src="@drawable/harshe"/>
+            <LinearLayout
+                android:id="@+id/det"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <RelativeLayout
+                    android:layout_marginLeft="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <TextView
+                        android:id="@+id/develope"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Frontend Developer"
+                        android:textSize="20sp"
+                        android:textColor="@color/textColor"/>
+                    <TextView
+                        android:layout_below="@+id/develope"
+                        android:id="@+id/na"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Harshini Ezhumalai"
+                        android:textSize="20sp"
+                        android:textColor="@color/textColor"/>
+                    <TextView
+                        android:id="@+id/bs"
+                        android:layout_below="@+id/na"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Bsc Computer Science"
+                        android:textSize="20sp"
+                        android:textColor="@color/textColor"/>
+                    <TextView
+                        android:id="@+id/se"
+                        android:layout_below="@+id/bs"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="2nd Year  Sec : A"
+                        android:textSize="20sp"
+                        android:textColor="@color/textColor"/>
+                    <TextView
+                        android:layout_below="@+id/se"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="harshini1725@gmail.com"
+                        android:textSize="20sp"
+                        android:textColor="@color/purple_700"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</ScrollView>
